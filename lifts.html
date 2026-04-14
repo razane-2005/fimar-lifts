@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lifts</title>
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    .lifts {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 25px;
+      padding: 40px;
+    }
+
+    .lift-card {
+      background: #111;
+      border-radius: 10px;
+      overflow: hidden;
+      text-align: center;
+      color: white;
+      transition: 0.3s;
+    }
+
+    .lift-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .lift-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    }
+
+    /* Mobile */
+    @media (max-width: 768px) {
+      .lifts {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+
+<header>
+  <h2>Our Lifts</h2>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="contact.html">Contact</a>
+    <a href="about.html">About</a>
+  </nav>
+</header>
+
+<section class="lifts">
+
+  <div class="lift-card">
+    <img src="https://th.bing.com/th/id/OIP.iGXCzf9eWRCs_b1-s3IyuwHaHa">
+    <h3>Modern Lift</h3>
+    <p>High quality elevator for buildings</p>
+  </div>
+
+  <div class="lift-card">
+    <img src="https://tse2.mm.bing.net/th/id/OIP.DJ5OaOcWlWc6fFJr25jLEwHaHa">
+    <h3>Home Lift</h3>
+    <p>Perfect for villas and small spaces</p>
+  </div>
+
+  <div class="lift-card">
+    <img src="https://tse2.mm.bing.net/th/id/OIP.fcXl2rd1AWa0b9bldGu00wHaHa">
+    <h3>Luxury Lift</h3>
+    <p>Elegant and premium design</p>
+  </div>
+
+  <!-- NEW IMAGES -->
+
+  <div class="lift-card">
+    <img src="c:\Users\Me\Pictures\WhatsApp Image 2026-04-14 at 4.07.57 PM.jpeg">
+    <h3>Control Panel</h3>
+    <p>Advanced elevator control system with modern design and precision</p>
+  </div>
+
+  <div class="lift-card">
+    <img src="c:\Users\Me\Pictures\WhatsApp Image 2026-04-14 at 4.07.58 PM.jpeg">
+    <h3>Modern Interior Lift</h3>
+    <p>Elegant interior design with high-quality materials and comfort</p>
+  </div>
+
+  <div class="lift-card">
+    <img src="c:\Users\Me\Pictures\WhatsApp Image 2026-04-14 at 4.08.03 PM.jpeg">
+    <h3>Panoramic Lift</h3>
+    <p>Stylish lift with wide view and comfort</p>
+  </div>
+
+</section>
+
+<a class="whatsapp" href="https://wa.me/96170830870" target="_blank">💬</a>
+
+</body>
+</html>
